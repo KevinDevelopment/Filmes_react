@@ -6,7 +6,7 @@ function Header(){
     return(
         <header>           
             <Link className="logo" to="/">Filmaria</Link>
-            <Link className="favoritos" to="/">Salvar</Link>
+            <Link className="favoritos" to="/favoritos">Salvar</Link>
         </header>
     );
 }
